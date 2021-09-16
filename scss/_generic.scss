@@ -1,0 +1,41 @@
+/* General */
+
+body.theme-cenote {
+    color: $grey1;
+    font-family: 'Nunito', sans-serif;
+
+    h1, h2, h3, h4, h5, h6  {
+        //font-family: 'Open Sans Condensed', sans-serif;
+        color: $grey1;
+        //font-weight: 300;
+        font-family: 'Nunito', sans-serif;
+    }
+
+
+/* Header */
+
+    header {
+        ul {
+            &.tg-contact-info {
+                display: none;
+            }
+        }
+    }
+
+    //Sharing 
+
+    .heateor_sss_sharing_container {
+        margin-bottom: 20px;
+    }
+
+
+    // comment rating 
+    .comment-respond .rating-container > input + label {
+        display: inline-block;
+    }
+
+
+
+} /* end of body */
+
+
