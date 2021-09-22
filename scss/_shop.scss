@@ -78,6 +78,12 @@
 }
 
 .woocommerce {
+    ul.products {
+        li.product {
+            background-color: white;
+            padding: 15px;
+        }
+    }
     div.product {
         form.cart {
             .variations {
@@ -125,6 +131,7 @@
                         position: relative;
                         top: 50%;
                         transform: translateY(-50%);
+                        opacity: 0.3;
                     }
                 }
                 &.flex-control-thumbs {
@@ -141,6 +148,7 @@
                             position: relative;
                             top: 50%;
                             transform: translateY(-50%);
+                            opacity: 0.3;
                         }
                     }
                 }

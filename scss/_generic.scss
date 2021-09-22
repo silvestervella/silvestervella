@@ -74,6 +74,59 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-navigation {
     font-family: 'Poiret One', cursive;
+    ul.sub-menu {
+        background-color:$grey;
+        li {
+            a {
+                color: white;
+            }
+            &.menu-item-has-children {
+                .sub-menu {
+                    li {
+                        a {
+                            color: white;
+                        }
+                        &:hover {
+                            a {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ul.children {
+        background-color: $grey;
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+    ul {
+        li {
+            ul {
+                li {
+                    &:hover {
+                        background-color: $primary-color;
+                        a {
+                            color: white;
+                        }
+                    }
+                    &.current-menu-item {
+                        background-color: $primary-color;
+                    }
+                    &.current_page_item {
+                        background-color: $primary-color;
+                    }
+                    &.current-menu-ancestor {
+                        background-color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .page-id-74 {
