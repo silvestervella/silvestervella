@@ -1,9 +1,12 @@
-// Variables 
 
-$grey1 :#777777;
-$gold1: #c1aa65;
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 
-// Font
+a[href="https://silvestervella.com/?cat=4"] {
+  display: none;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+$primary-color: #b76e79;
+$grey: #333333;
