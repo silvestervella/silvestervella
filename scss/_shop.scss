@@ -232,12 +232,59 @@
                 h2 {
                     display: none;
                 }
+                table {
+                    tbody {
+                        tr:nth-child(even) {
+                            th {
+                                background-color: unset;
+                            }
+                            td {
+                                background-color: unset;
+                            }
+                        }
+                        .woocommerce-product-attributes-item--dimensions {
+                            height: 60px;
+                        }
+                    }
+                }
             }
         }
     }
  }
 
 
+ .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+     background-color: white;
+     font-size: 20px;
+ }
+
+ #add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
+     background-color: white;
+     p {
+         font-size: 20px;
+    }
+ }
+
+ #add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before {
+     border-bottom-color: white;
+ }
+
+
+ #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+     background-color: $primary-color;
+     .form-row.place-order {
+         p {
+             color: white;
+         }
+     }
+ }
+
+
+ #add_payment_method #payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+     label {
+        color: white;
+     }
+ }
 
 
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce span.onsale {
